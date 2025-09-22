@@ -3,6 +3,7 @@ from blessed import Terminal
 term = Terminal()
 ESC = "\x1b"
 
+
 def handle_keys():
     with term.cbreak(), term.hidden_cursor():
         key = term.getch()  # Get a single key press
@@ -15,7 +16,7 @@ def handle_keys():
             return {"move": (-1, 0)}
         elif key == "d":
             return {"move": (1, 0)}
-        
+
         if key == ESC:
             return {"exit": True}
 
