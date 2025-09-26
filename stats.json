@@ -1,0 +1,15 @@
+{
+    "health": { "current": 999, "max": 999 },
+    "xp": { "current": 999999, "max": 999999 },
+    "level": 99,
+    "armor": 99,
+    "perception": 99,
+    "abilities": {
+        "str": 99,
+        "dex": 99,
+        "con": 99,
+        "int": 99,
+        "wis": 99,
+        "cha": 99
+    }
+}
